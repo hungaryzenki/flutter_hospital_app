@@ -3,11 +3,6 @@ import 'package:flutter/services.dart';
 import 'dart:async';
 import 'package:hospital_app/auth.dart';
 
-void main() =>  runApp(MaterialApp(
-    home: SignIn(),
-  )
-);
-
 class SignIn extends StatefulWidget {
   @override
   _SignInState createState() => _SignInState();
