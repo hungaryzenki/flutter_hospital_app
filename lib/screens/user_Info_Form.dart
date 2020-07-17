@@ -14,14 +14,14 @@ class _UserInfoFormState extends State<UserInfoForm> {
     final GlobalKey<FormState> _formkey = GlobalKey<FormState>();
     FormState state;
     
-    void validateAndSave() {
+    /*void validateAndSave() {
       final FormState form = _formkey.currentState;
       if (form.validate()) {
         print('Form is valid');
       } else {
         print('Form is invalid');
       }
-    }
+    }*/
 
 
     return Scaffold(
