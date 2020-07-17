@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:async';
-import 'Home.dart';
-import 'auth.dart';
+import 'package:hospital_app/auth.dart';
 
 void main() =>  runApp(MaterialApp(
     home: SignIn(),

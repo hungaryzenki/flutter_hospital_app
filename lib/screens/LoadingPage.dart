@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'auth.dart';
+import 'package:hospital_app/auth.dart';
 
 
 class Loading extends StatefulWidget {

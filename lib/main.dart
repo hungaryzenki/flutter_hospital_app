@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hospital_app/SignIn.dart';
-import 'package:hospital_app/SignUp.dart';
-import 'LoadingPage.dart';
-import 'package:hospital_app/Home.dart';
+import 'package:hospital_app/screens/Home.dart';
+import 'package:hospital_app/screens/LoadingPage.dart';
+import 'package:hospital_app/screens/SignIn.dart';
+
+import 'screens/SignUp.dart';
 
 void main() => runApp(MaterialApp(
     initialRoute: 'SignIn',
@@ -12,6 +13,5 @@ void main() => runApp(MaterialApp(
       'SignUp': (context) => SignUp(),
       'Home': (context) => Home(),
     }
-
   )
 );

@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/rendering.dart';
-import 'package:hospital_app/SignUp.dart';
 
-import 'auth.dart';
+import '../auth.dart';
 
 
 void main() =>  runApp(MaterialApp(
