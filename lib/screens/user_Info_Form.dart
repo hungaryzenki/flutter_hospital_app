@@ -13,7 +13,7 @@ class _UserInfoFormState extends State<UserInfoForm> {
     TextEditingController _nameController, _phoneController, _addressController;
     final GlobalKey<FormState> _formkey = GlobalKey<FormState>();
     FormState state;
-    
+    //TODO: sync data into USER class and push to cloud
     /*void validateAndSave() {
       final FormState form = _formkey.currentState;
       if (form.validate()) {
@@ -22,7 +22,6 @@ class _UserInfoFormState extends State<UserInfoForm> {
         print('Form is invalid');
       }
     }*/
-
 
     return Scaffold(
       appBar: AppBar(
